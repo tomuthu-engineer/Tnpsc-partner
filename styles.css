@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=League+Spartan:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    height: 15vh;
+    padding: 10px 25px;
+    background-color: #fff;
+}
+
+.logo {
+    color: #177245 ;
+    font-family:'Agdasima' ;
+    font-weight: 900;
+    font-size: 3rem;
+    text-decoration: none;
+    cursor: default;
+}
+
+.nav_contents {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+   
+}
+
+.nav_contents a{
+    font-family:'Agdasima' ;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #009e60;
+}
+
+.nav_contents a:hover{
+    text-decoration: underline;
+}
+
+.home_section {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner img {
+    width: 100%;
+    height: 100vh;
+}
